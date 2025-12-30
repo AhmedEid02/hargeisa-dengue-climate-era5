@@ -52,32 +52,16 @@ Detailed methods are provided in `05_metadata/climate_methods.txt`.
 
 ---
 
-## Repository Structure
+## Key Climate Figures
 
-Hargeisa_Dengue_Climate_2023_2024/
-│
-├── 01_raw_data/
-│ └── ERA5_Hargeysa_Monthly_Climate_Sep2023_Jun2024.csv
-│
-├── 02_processed_data/
-│ └── climate_final_clean.csv
-│
-├── 03_scripts/
-│ ├── 01_climate_cleaning.R
-│ ├── 02_climate_trends.R
-│ └── 03_figures.R
-│
-├── 04_outputs/
-│ ├── figures/
-│ └── tables/
-│
-├── 05_metadata/
-│ ├── climate_methods.txt
-│ ├── variable_dictionary.txt
-│ └── session_info.txt
-│
-└── README.md
+### Monthly Mean Temperature
+![Monthly Mean Temperature](04_outputs/figures/Figure_1_Mean_Temperature.png)
 
+### Monthly Relative Humidity
+![Monthly Relative Humidity](04_outputs/figures/Figure_4_Relative_Humidity.png)
+
+### Monthly Total Precipitation
+![Monthly Total Precipitation](04_outputs/figures/Figure_5_Total_Precipitation.png)
 
 ---
 
