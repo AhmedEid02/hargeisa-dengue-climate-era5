@@ -95,7 +95,7 @@ Session information for reproducibility is provided in `05_metadata/session_info
 ---
 
 ## Author Contribution
-Climate data extraction, processing, visualization, and trend analysis were conducted by **@AhmedEid02 (Ahmed Hussein)**.  
+Climate data extraction, processing, visualization, and trend analysis were conducted by **@(https://github.com/AhmedEid02) (Ahmed Hussein)**.  
 All dengue surveillance data analysis and health modeling are performed separately by the primary researcher.
 
 ---
