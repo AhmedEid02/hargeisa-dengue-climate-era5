@@ -1,0 +1,85 @@
+
+Call:
+lm(formula = Tmean_C ~ month, data = climate_clean)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.7406 -2.2151  0.8218  1.5384  4.9435 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -185.55738  208.10683  -0.892    0.399
+month          0.01059    0.01054   1.004    0.345
+
+Residual standard error: 2.914 on 8 degrees of freedom
+Multiple R-squared:  0.112,	Adjusted R-squared:  0.000961 
+F-statistic: 1.009 on 1 and 8 DF,  p-value: 0.3446
+
+
+Call:
+lm(formula = Tmax_C ~ month, data = climate_clean)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.5131 -2.1897  0.5824  1.3113  4.6812 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -2.236e+02  1.914e+02  -1.168    0.276
+month        1.282e-02  9.695e-03   1.323    0.222
+
+Residual standard error: 2.68 on 8 degrees of freedom
+Multiple R-squared:  0.1795,	Adjusted R-squared:  0.0769 
+F-statistic:  1.75 on 1 and 8 DF,  p-value: 0.2225
+
+
+Call:
+lm(formula = Tmin_C ~ month, data = climate_clean)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-3.9687 -1.9548  0.8228  1.5392  4.5450 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -1.570e+02  2.058e+02  -0.763    0.467
+month        8.889e-03  1.043e-02   0.853    0.419
+
+Residual standard error: 2.881 on 8 degrees of freedom
+Multiple R-squared:  0.0833,	Adjusted R-squared:  -0.03128 
+F-statistic: 0.727 on 1 and 8 DF,  p-value: 0.4187
+
+
+Call:
+lm(formula = RH_pct ~ month, data = climate_clean)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-19.0560  -3.0595   0.7724   5.1414  17.8430 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 613.12377  766.63736   0.800    0.447
+month        -0.02819    0.03884  -0.726    0.489
+
+Residual standard error: 10.74 on 8 degrees of freedom
+Multiple R-squared:  0.06178,	Adjusted R-squared:  -0.0555 
+F-statistic: 0.5268 on 1 and 8 DF,  p-value: 0.4886
+
+
+Call:
+lm(formula = Precip_mm ~ month, data = climate_clean)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-21.49 -19.01 -10.52  14.23  40.33 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  785.74962 1777.10383   0.442    0.670
+month         -0.03878    0.09003  -0.431    0.678
+
+Residual standard error: 24.89 on 8 degrees of freedom
+Multiple R-squared:  0.02266,	Adjusted R-squared:  -0.09951 
+F-statistic: 0.1855 on 1 and 8 DF,  p-value: 0.6781
+
